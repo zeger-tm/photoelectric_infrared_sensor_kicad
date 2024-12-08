@@ -928,6 +928,472 @@
 				)
 			)
 		)
+		(symbol "NE555D_custom:NE555D_custom"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R_IC2"
+				(at 4.572 10.414 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "NE555D_custom"
+				(at 5.588 8.636 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+				(at -1.524 -2.794 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/ne555.pdf"
+				(at -0.254 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Precision Timers, 555 compatible, SOIC-8"
+				(at -0.254 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "single timer 555"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "NE555D_custom_0_0"
+				(pin power_in line
+					(at 0 -17.78 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 1.27 10.16 270)
+					(length 2.54)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "NE555D_custom_0_1"
+				(rectangle
+					(start -8.89 7.62)
+					(end 2.54 -15.24)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -8.89 7.62)
+					(end 2.54 -15.24)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "NE555D_custom_1_1"
+				(pin input line
+					(at -12.7 -10.16 0)
+					(length 3.81)
+					(name "TR"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 6.35 0 180)
+					(length 3.81)
+					(name "OUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input inverted
+					(at -5.08 11.43 270)
+					(length 3.81)
+					(name "R"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -5.08 -19.05 90)
+					(length 3.81)
+					(name "CV"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 -6.35 0)
+					(length 3.81)
+					(name "THR"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 2.54 0)
+					(length 3.81)
+					(name "DIS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "NE567_custom:NE567_custom"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R_IC1"
+				(at -2.8859 35.56 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "NE567_custom"
+				(at -2.8859 33.02 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+				(at 1.27 -8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm567.pdf"
+				(at -2.032 17.272 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Tone Decoder/Phase-Locked Loop, DIP-8/SOIC-8"
+				(at 0 20.828 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "tone decoder PLL"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "DIP*W7.62mm* SOIC*3.9x4.9mm*P1.27mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "NE567_custom_0_1"
+				(rectangle
+					(start -10.16 30.48)
+					(end 1.27 7.62)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "NE567_custom_1_1"
+				(pin output line
+					(at 3.81 13.97 180)
+					(length 2.54)
+					(name "C3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -6.35 5.08 90)
+					(length 2.54)
+					(name "C2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 27.94 0)
+					(length 2.54)
+					(name "IN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -5.08 33.02 270)
+					(length 2.54)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 24.13 0)
+					(length 2.54)
+					(name "R"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 11.43 0)
+					(length 2.54)
+					(name "RC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -1.27 5.08 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 3.81 27.94 180)
+					(length 2.54)
+					(name "OUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Sensor_Optical:SFH205F"
 			(pin_numbers hide)
 			(pin_names
@@ -1351,472 +1817,6 @@
 						)
 					)
 					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "Timer:NE555D"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R_IC2"
-				(at 4.572 10.414 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "NE555D"
-				(at 5.588 8.636 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-				(at -1.524 -2.794 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/ne555.pdf"
-				(at -0.254 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Precision Timers, 555 compatible, SOIC-8"
-				(at -0.254 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "single timer 555"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "NE555D_0_0"
-				(pin power_in line
-					(at 0 -17.78 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 1.27 10.16 270)
-					(length 2.54)
-					(name "VCC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "NE555D_0_1"
-				(rectangle
-					(start -8.89 7.62)
-					(end 2.54 -15.24)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(rectangle
-					(start -8.89 7.62)
-					(end 2.54 -15.24)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "NE555D_1_1"
-				(pin input line
-					(at -12.7 -10.16 0)
-					(length 3.81)
-					(name "TR"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 6.35 0 180)
-					(length 3.81)
-					(name "OUT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input inverted
-					(at -5.08 11.43 270)
-					(length 3.81)
-					(name "R"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -5.08 -19.05 90)
-					(length 3.81)
-					(name "CV"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -12.7 -6.35 0)
-					(length 3.81)
-					(name "THR"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -12.7 2.54 0)
-					(length 3.81)
-					(name "DIS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "Timer:NE567"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R_IC1"
-				(at 0 35.052 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "NE567"
-				(at -0.3459 33.02 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 1.27 -8.89 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm567.pdf"
-				(at -2.032 17.272 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Tone Decoder/Phase-Locked Loop, DIP-8/SOIC-8"
-				(at 0 20.828 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "tone decoder PLL"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "DIP*W7.62mm* SOIC*3.9x4.9mm*P1.27mm*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "NE567_0_1"
-				(rectangle
-					(start -10.16 30.48)
-					(end 1.27 7.62)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "NE567_1_1"
-				(pin output line
-					(at 3.81 13.97 180)
-					(length 2.54)
-					(name "C3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at -6.35 5.08 90)
-					(length 2.54)
-					(name "C2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -12.7 27.94 0)
-					(length 2.54)
-					(name "IN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -5.08 33.02 270)
-					(length 2.54)
-					(name "VCC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -12.7 24.13 0)
-					(length 2.54)
-					(name "R"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -12.7 11.43 0)
-					(length 2.54)
-					(name "RC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -1.27 5.08 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 3.81 27.94 180)
-					(length 2.54)
-					(name "OUT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4341,335 +4341,236 @@
 		)
 		(uuid "679c58ac-c613-48ca-8fe5-0edb478b82c6")
 	)
-	(global_label "R_GND"
-		(shape bidirectional)
-		(at 179.07 74.93 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "01177d80-5cb9-459b-98f6-0598f4b9c2b8")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 189.2746 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "R_C2"
-		(shape bidirectional)
-		(at 173.99 74.93 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "0ec369e8-71c2-4520-ae9f-e07e4a031bc5")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 165.1764 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "R_TR"
-		(shape bidirectional)
+	(label "R_THR{slash}TR"
 		(at 201.93 66.04 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify right bottom)
 		)
-		(uuid "1bdb8124-efec-4ef3-812b-b36ff673849f")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 201.93 74.6117 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
+		(uuid "015dc8dc-8df6-4f47-b58a-a47f14a303b9")
 	)
-	(global_label "T_OUT"
-		(shape bidirectional)
+	(label "R_OUT2"
+		(at 224.79 55.88 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0a96cd63-170f-46de-bdb1-cbfe46b7743e")
+	)
+	(label "T_LED2"
+		(at 72.39 74.93 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "104e9954-968c-4643-aae5-714b8918a767")
+	)
+	(label "T_POT"
+		(at 25.4 35.56 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1e1052b3-b27c-4596-902a-4525956c6a62")
+	)
+	(label "R_OUT1"
+		(at 185.42 50.8 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "2b24f4e3-65c6-4c70-aab6-41b09662ba74")
+	)
+	(label "R_EMITTER2"
+		(at 140.97 68.58 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "34e04e80-e499-4407-b350-8fa17ff717d4")
+	)
+	(label "R_R"
+		(at 162.56 54.61 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4b1ec785-2df4-4e76-9a0f-bf34b6d5e2cb")
+	)
+	(label "T_OUT"
 		(at 54.61 48.26 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify right bottom)
 		)
-		(uuid "985b67a5-3be9-43e9-a38b-1a23011d6943")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 54.61 57.9203 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
+		(uuid "56e1d9b9-8af2-4a2f-9b9a-91db6bcaae09")
 	)
-	(global_label "R_OUT1"
-		(shape bidirectional)
-		(at 186.69 50.8 0)
+	(label "R_IN"
+		(at 152.4 50.8 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify left bottom)
 		)
-		(uuid "9d75a73c-1aff-4dfd-9150-6d10586838ce")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 197.8622 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
+		(uuid "5f7baafb-b1d8-49b5-bc18-d9f0cab3a31b")
 	)
-	(global_label "R_GND"
-		(shape bidirectional)
-		(at 217.17 77.47 0)
+	(label "R_CV"
+		(at 212.09 78.74 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify left bottom)
 		)
-		(uuid "9fade979-697c-4e20-9cda-0b97b691a958")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 227.3746 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
+		(uuid "628ec039-e4f1-4cd5-83e0-ffe687b16d01")
 	)
-	(global_label "R_CV"
-		(shape bidirectional)
-		(at 212.09 77.47 180)
+	(label "R_LED"
+		(at 106.68 72.39 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left bottom)
 		)
-		(uuid "a3af1d2b-f81d-4096-b134-6087d3b09ac8")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 203.3973 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
+		(uuid "67877eb2-01fc-47c7-a1ad-7c1c5619866d")
 	)
-	(global_label "T_GND"
-		(shape input)
-		(at 41.91 66.04 0)
+	(label "R_BASE2"
+		(at 132.08 59.69 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify left bottom)
 		)
-		(uuid "b845b5d6-2f52-4d71-9e4a-78cae3a4fe87")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 50.7009 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
+		(uuid "6d26ee66-cf58-4676-90be-81476cbb3280")
 	)
-	(global_label "R_R"
-		(shape bidirectional)
-		(at 162.56 55.88 180)
+	(label "R_DIS"
+		(at 199.39 53.34 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left bottom)
 		)
-		(uuid "bdc87cf5-68a5-4545-9d46-8b3b54fccdcd")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 154.9559 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
+		(uuid "7e25e701-721a-4f84-93fc-e4e24c001669")
 	)
-	(global_label "+9V"
-		(shape input)
-		(at 41.91 26.67 0)
+	(label "R_C3"
+		(at 185.42 64.77 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right bottom)
 		)
-		(uuid "c14f24ea-74a2-42d3-9019-8442502531ea")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 48.7657 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
+		(uuid "848884ac-8fdb-4a90-87cf-43b2cdde1f2b")
 	)
-	(global_label "R_IN"
-		(shape bidirectional)
-		(at 158.75 50.8 90)
+	(label "T_DIS"
+		(at 24.13 44.45 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify left bottom)
 		)
-		(uuid "cb3d38db-cd48-4408-9ac2-b973e450e29f")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 158.75 42.5306 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
+		(uuid "9de722d9-4ea2-4521-89d2-bfc32bcf99ad")
 	)
-	(global_label "T_THR"
-		(shape bidirectional)
-		(at 24.13 53.34 270)
+	(label "R_C2"
+		(at 173.99 77.47 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left bottom)
 		)
-		(uuid "cb82fd9a-e0c1-44f9-9ca2-7088f905537a")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 24.13 62.9398 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
+		(uuid "a5abdb1e-0e0a-4f5c-a70d-5a43fb08db62")
 	)
-	(global_label "R_OUT2"
-		(shape bidirectional)
-		(at 226.06 55.88 0)
+	(label "T_LED1"
+		(at 72.39 64.77 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify left bottom)
 		)
-		(uuid "df6b7cb2-b8f6-4f2c-8314-4cfb37935c12")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 237.2322 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
+		(uuid "a60ecf49-9e9e-4c86-912b-05a75ceee754")
 	)
-	(global_label "+5V"
-		(shape bidirectional)
-		(at 218.44 39.37 0)
+	(label "T_BASE"
+		(at 64.77 48.26 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right bottom)
 		)
-		(uuid "e6eb251c-45ab-47bb-94d5-c08ddeda157e")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 226.407 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
+		(uuid "ad88b8b0-28e8-4971-beda-63577884f56c")
 	)
-	(global_label "T_DIS"
-		(shape bidirectional)
-		(at 29.21 44.45 90)
+	(label "T_EMITTER"
+		(at 72.39 54.61 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify left bottom)
 		)
-		(uuid "f2c62e0a-75fa-4398-93f4-2ffe4a5d88c9")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 29.21 35.334 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
+		(uuid "e8921ded-aafe-4619-beaf-8b2efedf0376")
+	)
+	(label "T_THR{slash}TR"
+		(at 25.4 55.88 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
 			)
+			(justify right bottom)
 		)
+		(uuid "f1071666-7151-4a04-b39f-097beb832569")
+	)
+	(label "R_RC"
+		(at 166.37 67.31 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "fdd537a7-9e2c-4783-821c-449a0b5dfdef")
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -6075,10 +5976,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "7a00494b-7f28-4e90-ab83-0ed7f854db65")
 		(property "Reference" "T_IC1"
-			(at 60.96 41.9414 0)
+			(at 48.768 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6086,7 +5986,7 @@
 			)
 		)
 		(property "Value" "TLC555xD_custom"
-			(at 60.96 44.4814 0)
+			(at 41.91 50.546 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6161,10 +6061,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "7d11ec60-6673-4925-8a05-8c382958527d")
 		(property "Reference" "T_R2"
-			(at 24.13 48.2599 0)
+			(at 24.13 48.006 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6173,7 +6072,7 @@
 			)
 		)
 		(property "Value" "2k7"
-			(at 24.13 50.7999 0)
+			(at 24.13 50.546 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6218,6 +6117,94 @@
 			(project "photoelectric_infrared_sensor"
 				(path "/125be5c9-ffda-4197-af92-4c43426c07b4"
 					(reference "T_R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "NE567_custom:NE567_custom")
+		(at 180.34 78.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7d6906a8-cb67-40b4-b28e-7122cbbe18a6")
+		(property "Reference" "R_IC1"
+			(at 177.292 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "NE567_custom"
+			(at 175.768 67.056 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 181.61 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm567.pdf"
+			(at 178.308 61.468 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Tone Decoder/Phase-Locked Loop, DIP-8/SOIC-8"
+			(at 180.34 57.912 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "6c6ca4ef-e663-48d1-91c2-284e90988fcb")
+		)
+		(pin "8"
+			(uuid "2cbaf6f7-dc9c-40bb-8c34-61ce707672d0")
+		)
+		(pin "7"
+			(uuid "e20befbc-4603-4ca0-861a-bd5faa55ac2c")
+		)
+		(pin "1"
+			(uuid "38a73216-2d2a-49ae-8086-6ae12215ea5f")
+		)
+		(pin "4"
+			(uuid "30371f95-2df6-431d-aa14-9ebff865a4ef")
+		)
+		(pin "5"
+			(uuid "25473bc5-446a-4a30-aeb3-3c43d35b6881")
+		)
+		(pin "2"
+			(uuid "66b73dea-40ea-484c-93ae-0294792ef096")
+		)
+		(pin "6"
+			(uuid "c228c0f6-a6ad-4c01-ae92-352dc58d3f8c")
+		)
+		(instances
+			(project ""
+				(path "/125be5c9-ffda-4197-af92-4c43426c07b4"
+					(reference "R_IC1")
 					(unit 1)
 				)
 			)
@@ -6353,91 +6340,6 @@
 			(project "photoelectric_infrared_sensor"
 				(path "/125be5c9-ffda-4197-af92-4c43426c07b4"
 					(reference "R_C8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Timer:NE555D")
-		(at 217.17 55.88 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8b2136b5-e7a8-42b5-9374-950c254a4137")
-		(property "Reference" "R_IC2"
-			(at 221.742 45.466 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "NE555D"
-			(at 222.758 47.244 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 215.646 58.674 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/ne555.pdf"
-			(at 216.916 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Precision Timers, 555 compatible, SOIC-8"
-			(at 216.916 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f6b2b62c-224f-46c7-94ec-1f9211a1cbdb")
-		)
-		(pin "2"
-			(uuid "9bf8bdc2-c2b6-4274-8ac4-71df7a982681")
-		)
-		(pin "4"
-			(uuid "70adb8fa-6f8a-4be6-91bb-ac5f630605fb")
-		)
-		(pin "5"
-			(uuid "5bafa824-cf22-43bb-b25d-311f8e8e672a")
-		)
-		(pin "6"
-			(uuid "a8154353-ba2d-4aed-a1dc-2a7fd8a843e9")
-		)
-		(pin "7"
-			(uuid "011b6967-00d2-4eb6-a628-82999af92e6a")
-		)
-		(pin "8"
-			(uuid "d9682298-e5a7-4cdb-8763-4fb468109704")
-		)
-		(pin "3"
-			(uuid "7415fbc0-4f84-4047-b6ed-eaf92bc8d414")
-		)
-		(instances
-			(project "photoelectric_infrared_sensor"
-				(path "/125be5c9-ffda-4197-af92-4c43426c07b4"
-					(reference "R_IC2")
 					(unit 1)
 				)
 			)
@@ -7605,6 +7507,91 @@
 		)
 	)
 	(symbol
+		(lib_id "NE555D_custom:NE555D_custom")
+		(at 217.17 55.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d891dc84-32b5-4ba3-a46d-cf8a441511d0")
+		(property "Reference" "R_IC2"
+			(at 207.518 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "NE555D_custom"
+			(at 213.868 59.436 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 215.646 58.674 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/ne555.pdf"
+			(at 216.916 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Precision Timers, 555 compatible, SOIC-8"
+			(at 216.916 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "48f943b4-566f-4ef8-a728-7ee9cb8d981a")
+		)
+		(pin "6"
+			(uuid "fbb64a60-c5f2-401d-9624-503a219318ab")
+		)
+		(pin "4"
+			(uuid "7642203e-5627-463c-b634-cfb36c9402af")
+		)
+		(pin "7"
+			(uuid "20c409ac-5a14-426b-88d2-e13d4c2a957b")
+		)
+		(pin "1"
+			(uuid "ca6c29b7-e247-4d89-afc6-9986dbe8813e")
+		)
+		(pin "3"
+			(uuid "50360b53-d981-4bf5-985c-7d98cc521625")
+		)
+		(pin "8"
+			(uuid "b5ed4a81-45bf-422f-aada-4917e73fe2b7")
+		)
+		(pin "2"
+			(uuid "1033e96a-7bbb-4be7-b45a-e35ea21dc42e")
+		)
+		(instances
+			(project ""
+				(path "/125be5c9-ffda-4197-af92-4c43426c07b4"
+					(reference "R_IC2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 106.68 29.21 0)
 		(unit 1)
@@ -7669,94 +7656,6 @@
 			(project "photoelectric_infrared_sensor"
 				(path "/125be5c9-ffda-4197-af92-4c43426c07b4"
 					(reference "R_R1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Timer:NE567")
-		(at 180.34 78.74 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e584910d-542e-4f08-a34f-add4821a6de3")
-		(property "Reference" "R_IC1"
-			(at 177.292 45.466 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "NE567"
-			(at 177.292 47.244 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 181.61 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm567.pdf"
-			(at 178.308 61.468 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Tone Decoder/Phase-Locked Loop, DIP-8/SOIC-8"
-			(at 180.34 57.912 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "7"
-			(uuid "44a6aaed-f770-400c-a00d-2375c8990b26")
-		)
-		(pin "5"
-			(uuid "4b4005dd-a46d-43b7-aee2-4cc450f787da")
-		)
-		(pin "8"
-			(uuid "8515e68c-e3d0-426a-8e68-7342ad009adf")
-		)
-		(pin "3"
-			(uuid "10445b83-bcf0-42b9-b309-5b80d6f79adb")
-		)
-		(pin "4"
-			(uuid "392aaecf-8dba-400d-b722-4a55e04b5031")
-		)
-		(pin "6"
-			(uuid "3ebb7440-1936-48f6-8c35-9d61f91298db")
-		)
-		(pin "1"
-			(uuid "08ad558d-8dfa-45a3-a83e-bd71aa858a7f")
-		)
-		(pin "2"
-			(uuid "e865f751-51fe-47d5-9cc2-79e00ea070c0")
-		)
-		(instances
-			(project "photoelectric_infrared_sensor"
-				(path "/125be5c9-ffda-4197-af92-4c43426c07b4"
-					(reference "R_IC1")
 					(unit 1)
 				)
 			)
