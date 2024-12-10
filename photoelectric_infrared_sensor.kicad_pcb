@@ -173,7 +173,7 @@
 	(footprint "ERJUP6:ERJUP6"
 		(layer "F.Cu")
 		(uuid "026f18c3-8963-4491-a2f6-dad1bf0ad255")
-		(at 209.685 76.335)
+		(at 212.935 71.38)
 		(descr "ERJUP6")
 		(tags "Resistor")
 		(property "Reference" "R_R9"
@@ -373,7 +373,7 @@
 	(footprint "ERJUP6:ERJUP6"
 		(layer "F.Cu")
 		(uuid "06ad8a02-6af6-4a77-8d0e-f16e6ffc1a90")
-		(at 212.225 77.6)
+		(at 215.395 78.38)
 		(descr "ERJUP6")
 		(tags "Resistor")
 		(property "Reference" "R_R10"
@@ -573,7 +573,7 @@
 	(footprint "ERJUP6:ERJUP6"
 		(layer "F.Cu")
 		(uuid "0cf8bbd0-e69f-4008-bd98-f96939d2b643")
-		(at 204.615 97.42)
+		(at 204.735 87.11)
 		(descr "ERJUP6")
 		(tags "Resistor")
 		(property "Reference" "R_R8"
@@ -773,7 +773,7 @@
 	(footprint "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "17cb332d-2ba1-4bcf-8ba5-07bf956b2beb")
-		(at 196.23 90.07)
+		(at 192.5925 75.95)
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
 		(property "Reference" "R_C10"
@@ -986,7 +986,7 @@
 	(footprint "ERJUP6:ERJUP6"
 		(layer "F.Cu")
 		(uuid "186eb081-869c-4db6-9b92-190aead7d79a")
-		(at 213.335 73.47)
+		(at 219.175 64.48)
 		(descr "ERJUP6")
 		(tags "Resistor")
 		(property "Reference" "R_R7"
@@ -1186,7 +1186,7 @@
 	(footprint "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "1fc321c4-5681-4725-a06e-e9fa4efa90e1")
-		(at 84.295 62.225)
+		(at 63.1525 66.11)
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
 		(property "Reference" "T_C1"
@@ -1843,7 +1843,7 @@
 	(footprint "ERJUP6:ERJUP6"
 		(layer "F.Cu")
 		(uuid "2256b3aa-470d-40c8-820e-3aee57740cc9")
-		(at 210.195 80.77)
+		(at 211.875 82.89)
 		(descr "ERJUP6")
 		(tags "Resistor")
 		(property "Reference" "R_R13"
@@ -2243,7 +2243,7 @@
 	(footprint "Package_TO_SOT_THT:TO-126-3_Vertical"
 		(layer "F.Cu")
 		(uuid "359bfe3b-04c6-499d-9758-284fcc07f8a5")
-		(at 75.635 93.895)
+		(at 90.1 66.41)
 		(descr "TO-126-3, Vertical, RM 2.28mm, see https://www.diodes.com/assets/Package-Files/TO126.pdf")
 		(tags "TO-126-3 Vertical RM 2.28mm")
 		(property "Reference" "T_T1"
@@ -3310,7 +3310,7 @@
 	(footprint "SFH_4851:SFH4851"
 		(layer "F.Cu")
 		(uuid "5201264c-8531-48c8-8f7a-2d1196c7bcf0")
-		(at 68.43 70)
+		(at 107.96 69.04)
 		(descr "SFH 4851-3")
 		(tags "LED")
 		(property "Reference" "T_D2"
@@ -3579,7 +3579,7 @@
 	(footprint "BPW_34_FAS-Z:BPW34FASZ"
 		(layer "F.Cu")
 		(uuid "58fea2a8-7bf3-4a76-8b92-d006799841e8")
-		(at 175.83 97.25)
+		(at 159.58 77.42)
 		(descr "BPW 34 FAS-Z-3")
 		(tags "LED")
 		(property "Reference" "R_D1"
@@ -5415,7 +5415,7 @@
 	(footprint "CPT-1203-03-SMT-TR:CPT-1203-03-SMT-TR"
 		(layer "F.Cu")
 		(uuid "9434f457-23c9-4f52-b775-15dbeb41175b")
-		(at 190.27 73.6)
+		(at 257.95 63.05)
 		(property "Reference" "R_BZ1"
 			(at 0.2 4.7 0)
 			(unlocked yes)
@@ -5703,7 +5703,7 @@
 	(footprint "ERJUP6:ERJUP6"
 		(layer "F.Cu")
 		(uuid "95a621a9-d22b-4e1f-a0b2-7eb6c700bb54")
-		(at 203.585 74.69)
+		(at 204.235 64.48)
 		(descr "ERJUP6")
 		(tags "Resistor")
 		(property "Reference" "R_R2"
@@ -6572,7 +6572,7 @@
 	(footprint "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "a93d2ab5-8e5d-4816-9074-105c6f3b05d5")
-		(at 199.765 47.925)
+		(at 187.0975 72.24)
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
 		(property "Reference" "R_C5"
@@ -7198,7 +7198,7 @@
 	(footprint "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "ba9bbaed-d308-4788-a34a-d8edd1e50afb")
-		(at 207.02 53.24)
+		(at 195.7175 64.54)
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
 		(property "Reference" "R_C4"
@@ -7624,7 +7624,7 @@
 	(footprint "ERJUP6:ERJUP6"
 		(layer "F.Cu")
 		(uuid "ce72d1e5-f9cd-4237-9da7-4a100d2dfac0")
-		(at 207.235 72.835)
+		(at 211.705 62.02)
 		(descr "ERJUP6")
 		(tags "Resistor")
 		(property "Reference" "R_R1"
@@ -7824,7 +7824,7 @@
 	(footprint "SFH_4851:SFH4851"
 		(layer "F.Cu")
 		(uuid "cee62d88-86ad-4f27-a742-7293165ef506")
-		(at 59.53 76.3)
+		(at 108.23 76.35)
 		(descr "SFH 4851-3")
 		(tags "LED")
 		(property "Reference" "T_D1"
@@ -8093,7 +8093,7 @@
 	(footprint "ERJUP6:ERJUP6"
 		(layer "F.Cu")
 		(uuid "e0360f3a-7ede-4190-a402-0b7d267e34d0")
-		(at 204.365 77.95)
+		(at 201.915 76.63)
 		(descr "ERJUP6")
 		(tags "Resistor")
 		(property "Reference" "R_R5"
@@ -8293,7 +8293,7 @@
 	(footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
 		(layer "F.Cu")
 		(uuid "e1266a3e-5985-4231-9b91-ebda6ddb2476")
-		(at 100.525 78.695)
+		(at 72.485 73.565)
 		(descr "SOIC, 8 Pin (JEDEC MS-012AA, https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/soic_narrow-r/r_8.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py")
 		(tags "SOIC SO")
 		(property "Reference" "T_IC1"
@@ -8810,7 +8810,7 @@
 	(footprint "Capacitor_SMD:CP_Elec_3x5.4"
 		(layer "F.Cu")
 		(uuid "f691a37b-6daa-4c8a-960d-eadc31ac0757")
-		(at 83.97 75.6)
+		(at 79.53 57.36)
 		(descr "SMD capacitor, aluminum electrolytic, Nichicon, 3.0x5.4mm")
 		(tags "capacitor electrolytic")
 		(property "Reference" "T_C2"
@@ -9214,7 +9214,7 @@
 	(footprint "ERJS1T_U1T__2512_:ERJS1T_U1T__2512_"
 		(layer "F.Cu")
 		(uuid "f8108dd6-476a-4e64-b5f5-17fba52ffef8")
-		(at 71.545 82.9)
+		(at 95.695 77.18)
 		(descr "ERJS1T_U1T_(2512)")
 		(tags "Resistor")
 		(property "Reference" "T_R4"
@@ -9414,7 +9414,7 @@
 	(footprint "ERJUP6:ERJUP6"
 		(layer "F.Cu")
 		(uuid "fb2b5a74-d0fb-4ed7-9b34-14c671b69d31")
-		(at 207.235 76.335)
+		(at 200.435 70.91)
 		(descr "ERJUP6")
 		(tags "Resistor")
 		(property "Reference" "R_R4"

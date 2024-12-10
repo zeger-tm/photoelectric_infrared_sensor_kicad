@@ -1233,7 +1233,7 @@
 				)
 			)
 		)
-		(symbol "SamacSys_Parts:PVG5A103C03R00"
+		(symbol "PVG5A103C03R00:PVG5A103C03R00"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -4615,149 +4615,6 @@
 		(uuid "fdd537a7-9e2c-4783-821c-449a0b5dfdef")
 	)
 	(symbol
-		(lib_id "SamacSys_Parts:PVG5A103C03R00")
-		(at 13.97 36.83 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "06b8a7bb-854e-4dd2-b036-e849b889c0cb")
-		(property "Reference" "VR1"
-			(at 27.94 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PVG5A103C03R00"
-			(at 27.94 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "PVG5A100C03R00"
-			(at 38.1 131.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.bourns.com/docs/Product-Datasheets/pvg5.pdf"
-			(at 38.1 231.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "PVG, SMT top adj cermet trimmer,10K"
-			(at 13.97 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" ""
-			(at 38.1 431.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Bourns"
-			(at 38.1 531.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "PVG5A103C03R00"
-			(at 38.1 631.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "81-PVG5A103C03R00"
-			(at 38.1 731.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Bourns/PVG5A103C03R00?qs=K6aI6PsrKE1vJOwlGZs%2FaQ%3D%3D"
-			(at 38.1 831.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" "PVG5A103C03R00"
-			(at 38.1 931.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/pvg5a103c03r00/bourns?region=europe"
-			(at 38.1 1031.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "04d7f007-3550-4535-8773-7a991f39aa1b")
-		)
-		(pin "2"
-			(uuid "081415bc-7f0f-4523-ab6f-e057e98907a6")
-		)
-		(pin "3"
-			(uuid "f0ada1a2-2e1b-410b-b44d-58c3d1089c3f")
-		)
-		(instances
-			(project ""
-				(path "/125be5c9-ffda-4197-af92-4c43426c07b4"
-					(reference "VR1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 53.34 91.44 0)
 		(unit 1)
@@ -5866,6 +5723,149 @@
 			(project "photoelectric_infrared_sensor"
 				(path "/125be5c9-ffda-4197-af92-4c43426c07b4"
 					(reference "R_C9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PVG5A103C03R00:PVG5A103C03R00")
+		(at 13.97 36.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "604daee0-6b93-4e9d-a951-441742c57b04")
+		(property "Reference" "VR1"
+			(at 27.94 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PVG5A103C03R00"
+			(at 27.94 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PVG5A100C03R00"
+			(at 38.1 131.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.bourns.com/docs/Product-Datasheets/pvg5.pdf"
+			(at 38.1 231.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "PVG, SMT top adj cermet trimmer,10K"
+			(at 13.97 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" ""
+			(at 38.1 431.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Bourns"
+			(at 38.1 531.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "PVG5A103C03R00"
+			(at 38.1 631.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "81-PVG5A103C03R00"
+			(at 38.1 731.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Bourns/PVG5A103C03R00?qs=K6aI6PsrKE1vJOwlGZs%2FaQ%3D%3D"
+			(at 38.1 831.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "PVG5A103C03R00"
+			(at 38.1 931.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/pvg5a103c03r00/bourns?region=europe"
+			(at 38.1 1031.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e758f927-be31-428d-acd2-b5c7b710f846")
+		)
+		(pin "3"
+			(uuid "167b16c1-caf5-4df9-b3d3-0ea1136e2b35")
+		)
+		(pin "2"
+			(uuid "5f4869c5-7259-441c-bc1b-fd9c7cb1de90")
+		)
+		(instances
+			(project ""
+				(path "/125be5c9-ffda-4197-af92-4c43426c07b4"
+					(reference "VR1")
 					(unit 1)
 				)
 			)
